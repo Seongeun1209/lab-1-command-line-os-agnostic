@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/c/Users/Seongeun Kim/mtec1003
 
 ==========
 5. Type:
@@ -42,7 +42,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/
 
 ==========
 6. Type:
@@ -53,7 +53,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  food/
 
 ==========
 7. Type:
@@ -64,7 +64,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  foo/  food/
 
 ==========
 8. Type:
@@ -75,7 +75,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Seongeun Kim/mtec1003/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -86,7 +86,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Seongeun Kim/mtec1003/foo/bar
 
 ==========
 10. Type:
@@ -97,7 +97,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Seongeun Kim/mtec1003/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -108,7 +108,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Seongeun Kim/mtec1003
 
 ==========
 12. Type:
@@ -120,7 +120,9 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
-
+total 0
+drwxr-xr-x 1 Seongeun Kim 197610 0 Oct  1 20:34 foo/
+drwxr-xr-x 1 Seongeun Kim 197610 0 Oct  1 20:32 food/
 
 ==========
 13. Type:
@@ -131,7 +133,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/Seongeun Kim
 
 ==========
 14. Type:
@@ -142,7 +144,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+bash: cd: /Volumes: No such file or directory
 
 ==========
 15. Type:
@@ -153,7 +155,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/Seongeun Kim
 
 ==========
 15. Type:
@@ -164,13 +166,13 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/Seongeun Kim/mtec1003
 
 ==========
-16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+16a. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+You can use the "cd ~" commmand to find out if you're in the right folder. The "cd ~" command takes you to the home directory.
 
 ==========
 16b. If you're not in the right directory, type the following command:
@@ -193,7 +195,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+You can use the "mkdir" command.
 
 ==========
 18. Make another directory called aardvark.  
@@ -201,7 +203,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 19. List the files and directories in the current directory using the long format.  
@@ -209,7 +211,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+October 1st.
 
 ==========
 20. Make 3 directories nested within each other:
@@ -221,7 +223,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+I used mkdir.
 
 ==========
 21. Change your directory so that you're in the inner most directory (baz)
@@ -237,30 +239,31 @@ What command did you use?
 What command did you use?
 ----------
 
+cd ..
 
 ==========
 23. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
 
-
+pwd command
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 26. What's the shortcut for home directory?
 ----------
 
-
+cd ~
 
 ==========
 27. What's a pathname?
