@@ -196,6 +196,7 @@ Use only one command to make all of these new directories.  Write what command y
 ----------
 
 You can use the "mkdir" command.
+mkdir -p lemon/strawberry/orange/pineapple
 
 ==========
 18. Make another directory called aardvark.  
@@ -224,6 +225,7 @@ What command did you use?
 ----------
 
 I used mkdir.
+mkdir -p foo/bar/baz
 
 ==========
 21. Change your directory so that you're in the inner most directory (baz)
@@ -231,7 +233,7 @@ I used mkdir.
 What command did you use?
 ----------
 
-
+cd foo/bar/baz
 
 ==========
 22. Change your directory so that you're two directories up (foo)
@@ -239,7 +241,7 @@ What command did you use?
 What command did you use?
 ----------
 
-cd ..
+cd ../..
 
 ==========
 23. What command is used to delete empty directories?
@@ -251,7 +253,7 @@ rmdir
 24. What command is used to print out your current working directory?
 ----------
 
-pwd command
+"pwd" command
 
 ==========
 25. What flag do I pass to ls to print out all files?
@@ -269,14 +271,16 @@ cd ~
 27. What's a pathname?
 ----------
 
-
+A pathname indicates where the file is located in the system.
 
 ==========
 28. What's a directory?
 ----------
 
-
+A directory refers to a folder.
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+/c/Users/Seongeun Kim/Downloads
